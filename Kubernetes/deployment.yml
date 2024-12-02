@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: swiggydeployment
+  name: swiggy
   labels:
     app: swiggy
 spec:
@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: swiggypod
+        app: swiggy
     spec:
       terminationGracePeriodSeconds: 30
       containers:

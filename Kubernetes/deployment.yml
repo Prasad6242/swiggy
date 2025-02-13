@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: swiggycontainer
-        image: prasad6242/swiggy:${BUILD_NUMBER}
+        image: prasad6242/swiggy
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
